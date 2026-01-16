@@ -6,7 +6,7 @@ File path must be: profile/README.md
 
 <div align="center">
 
-# [ORG NAME]
+# Aalberts HFC
 **[One-line value proposition. What you do + for whom.]**
 
 [Short 2–3 sentence description. Keep it concrete: domain, outcomes, and what makes you different.]
@@ -35,7 +35,15 @@ File path must be: profile/README.md
 
 ---
 
-## Key repositories (start here)
+## LoRaWAN Thermostatic Head repositories
+- **[LoRa Radiator Valve Testbench](https://github.com/aalbertshfc/lora-radiator-valve-testbench)** — [why it matters].
+- **[LoRa Radiator Encoder Decoder](lora-radiator-valve-encoder-decoder)** — [why it matters].
+- **[repo-name-3](https://github.com/[ORG]/[repo-name-3])** — [why it matters].
+
+## Smart Heat Vault repositories
+- **[Smart Heat Vault Testing Tool](https://github.com/aalbertshfc/smart-heat-vault-testing-tool)** — [why it matters].
+
+## AWS Chatbot repositories
 - **[repo-name-1](https://github.com/[ORG]/[repo-name-1])** — [why it matters].
 - **[repo-name-2](https://github.com/[ORG]/[repo-name-2])** — [why it matters].
 - **[repo-name-3](https://github.com/[ORG]/[repo-name-3])** — [why it matters].
@@ -52,10 +60,3 @@ File path must be: profile/README.md
 1. Check issues labeled **`good first issue`** or **`help wanted`**.
 2. Read **CONTRIBUTING.md** (per repo) and follow the PR template.
 3. Keep changes small, tested, and documented.
-
-### Development quick start
-```bash
-# Example: clone + bootstrap
-git clone https://github.com/[ORG]/[REPO].git
-cd [REPO]
-# [add your standard commands: e.g. make setup / uv sync / npm ci]
