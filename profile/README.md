@@ -7,56 +7,71 @@ File path must be: profile/README.md
 <div align="center">
 
 # Aalberts HFC
-**[One-line value proposition. What you do + for whom.]**
 
-[Short 2–3 sentence description. Keep it concrete: domain, outcomes, and what makes you different.]
-
-<!-- Optional badges -->
-<!--
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Focus](https://img.shields.io/badge/focus-[YOUR_FOCUS]-blue)
--->
+Engineering organization focused on connected hydronic systems, digital building solutions,
+and energy management technologies.
 
 </div>
 
 ---
 
-## What we do
-- **[Capability / product area #1]** — [specific outcome].
-- **[Capability / product area #2]** — [specific outcome].
-- **[Capability / product area #3]** — [specific outcome].
+## 📘 Engineering Knowledge Base (start here)
 
-## What we’re working on
-- 🚀 **[Project / initiative #1]** — [1 sentence: problem + approach].
-- 🧰 **[Project / initiative #2]** — [1 sentence].
-- 📦 **[Project / initiative #3]** — [1 sentence].
+The **Aalberts Digital Buildings Knowledge Base** is the central, version-controlled source of truth
+for Digital Buildings engineering knowledge.
 
-> If you’re new here: start with **[“Getting Started” repo link]** or check **Pinned Repositories** below.
+👉 **[Aalberts Digital Buildings Knowledge Base](https://github.com/aalbertshfc/aalberts-digital-buildings-knowledge-base)**
+
+It contains:
+- System and platform architecture
+- Device landscape and ownership
+- Communication protocols (LoRaWAN, Modbus, MQTT, …)
+- OTA, bootloader and recovery procedures
+- Integration patterns (southbound / northbound)
+- Architectural decision records (ADRs)
+
+**Information not documented there should not be treated as authoritative.**
 
 ---
 
-## LoRaWAN Thermostatic Head repositories
-- **[LoRa Radiator Valve Testbench](https://github.com/aalbertshfc/lora-radiator-valve-testbench)** — [why it matters].
-- **[LoRa Radiator Encoder Decoder](lora-radiator-valve-encoder-decoder)** — [why it matters].
-- **[repo-name-3](https://github.com/[ORG]/[repo-name-3])** — [why it matters].
+## What we do
+- **Connected hydronic devices**: Thermostatic heads, sensors, and embedded control platforms.
+- **Digital building integration**: EMS/BMS connectivity and interoperability.
+- **Energy management systems**: Monitoring, control, and optimization of thermal energy assets.
 
-## Smart Heat Vault repositories
-- **[Smart Heat Vault Testing Tool](https://github.com/aalbertshfc/smart-heat-vault-testing-tool)** — [why it matters].
+---
 
-## AWS Chatbot repositories
-- **[repo-name-1](https://github.com/[ORG]/[repo-name-1])** — [why it matters].
-- **[repo-name-2](https://github.com/[ORG]/[repo-name-2])** — [why it matters].
-- **[repo-name-3](https://github.com/[ORG]/[repo-name-3])** — [why it matters].
+## Current focus areas
+- **LoRaWAN thermostatic heads**: Connected radiator control and telemetry.
+- **Smart Heat Vault**: Monitoring and control of thermal storage systems.
+- **Cloud integration tooling**: Data pipelines, testing tools, and automation.
+
+---
+
+## Key repositories
+
+### LoRaWAN thermostatic devices
+- **[LoRa Radiator Valve Testbench](https://github.com/aalbertshfc/lora-radiator-valve-testbench)** &rarr; End-to-end testing and validation tooling.
+
+- **[LoRa Radiator Encoder / Decoder](https://github.com/aalbertshfc/lora-radiator-valve-encoder-decoder)**  &rarr; Payload formats and protocol handling.
+
+### Smart Heat Vault
+- **[Smart Heat Vault Testing Tool](https://github.com/aalbertshfc/smart-heat-vault-testing-tool)**  &rarr; Validation and system-level testing utilities.
+
+---
 
 ## Engineering principles
-- **Reliability first**: [e.g., tests, CI, reproducible builds].
-- **Security by default**: [e.g., least privilege, signed releases].
-- **Docs are a feature**: [e.g., ADRs, runbooks, onboarding].
-- **Interoperability**: [e.g., open standards, stable APIs].
+- **Source of truth in Git** — documentation is versioned and reviewed.
+- **Device-first architecture** — systems are designed from field constraints upward.
+- **Interoperability by design** — preference for open and documented protocols.
+- **Docs are a feature** — ADRs and runbooks are mandatory for critical changes.
+- **Decisions are traceable** — major technical choices are documented with context and rationale (ADRs).
 
 ---
 
 ## How to contribute
-1. Check issues labeled **`good first issue`** or **`help wanted`**.
-2. Read **CONTRIBUTING.md** (per repo) and follow the PR template.
-3. Keep changes small, tested, and documented.
+1. Start with the **Engineering Knowledge Base**.
+2. Changes go through Pull Requests.
+3. Major technical decisions require an ADR.
+4. Keep documentation close to implementation and kept up to date.
+
