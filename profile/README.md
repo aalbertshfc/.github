@@ -61,11 +61,11 @@ It contains:
 ---
 
 ## Engineering principles
-- **Source of truth in Git** — documentation is versioned and reviewed.
-- **Device-first architecture** — systems are designed from field constraints upward.
-- **Interoperability by design** — preference for open and documented protocols.
-- **Docs are a feature** — ADRs and runbooks are mandatory for critical changes.
-- **Decisions are traceable** — major technical choices are documented with context and rationale (ADRs).
+- **Source of truth in Git**: Documentation is versioned and reviewed.
+- **Device-first architecture**: Systems are designed from field constraints upward.
+- **Interoperability by design**: Preference for open and documented protocols.
+- **Docs are a feature**: ADRs and runbooks are mandatory for critical changes.
+- **Decisions are traceable**: Major technical choices are documented with context and rationale (ADRs).
 
 ---
 
