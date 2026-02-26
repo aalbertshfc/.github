@@ -44,7 +44,7 @@ It contains:
 
 - **[LoRaWAN thermostatic devices](https://github.com/search?q=topic%3Alrch+org%3Aaalbertshfc&type=Repositories)** &rarr; Connected radiator control and telemetry.
 
-- **[Smart Heat Vault Controller Testing Tool](https://github.com/search?q=topic%3Ashvc+org%3Aaalbertshfc&type=Repositories)**  &rarr; Monitoring and control of thermal storage systems.
+- **[Smart Heat Vault Controller](https://github.com/search?q=topic%3Ashvc+org%3Aaalbertshfc&type=Repositories)**  &rarr; Monitoring and control of thermal storage systems.
 
 ---
 
