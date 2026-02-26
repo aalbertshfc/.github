@@ -38,25 +38,13 @@ It contains:
 - **Connected hydronic devices**: Thermostatic heads, sensors, and embedded control platforms.
 - **Digital building integration**: EMS/BMS connectivity and interoperability.
 - **Energy management systems**: Monitoring, control, and optimization of thermal energy assets.
-
 ---
 
-## Current focus areas
-- **LoRaWAN thermostatic heads**: Connected radiator control and telemetry.
-- **Smart Heat Vault**: Monitoring and control of thermal storage systems.
-- **Cloud integration tooling**: Data pipelines, testing tools, and automation.
+## Projects
 
----
+- **[LoRaWAN thermostatic devices](https://github.com/search?q=topic%3Alrch+org%3Aaalbertshfc&type=Repositories)** &rarr; Connected radiator control and telemetry.
 
-## Key repositories
-
-### LoRaWAN thermostatic devices
-- **[LoRa Radiator Valve Testbench](https://github.com/aalbertshfc/lora-radiator-valve-testbench)** &rarr; End-to-end testing and validation tooling.
-
-- **[LoRa Radiator Encoder / Decoder](https://github.com/aalbertshfc/lora-radiator-valve-encoder-decoder)**  &rarr; Payload formats and protocol handling.
-
-### Smart Heat Vault
-- **[Smart Heat Vault Testing Tool](https://github.com/aalbertshfc/smart-heat-vault-testing-tool)**  &rarr; Validation and system-level testing utilities.
+- **[Smart Heat Vault Controller Testing Tool](https://github.com/search?q=topic%3Ashvc+org%3Aaalbertshfc&type=Repositories)**  &rarr; Monitoring and control of thermal storage systems.
 
 ---
 
@@ -66,7 +54,6 @@ It contains:
 - **Interoperability by design**: Preference for open and documented protocols.
 - **Docs are a feature**: ADRs and runbooks are mandatory for critical changes.
 - **Decisions are traceable**: Major technical choices are documented with context and rationale (ADRs).
-
 ---
 
 ## How to contribute
@@ -74,4 +61,3 @@ It contains:
 2. Changes go through Pull Requests.
 3. Major technical decisions require an ADR.
 4. Keep documentation close to implementation and kept up to date.
-
