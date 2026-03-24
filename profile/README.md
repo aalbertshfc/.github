@@ -46,6 +46,8 @@ It contains:
 
 - **[Smart Heat Vault Controller](https://github.com/search?q=topic%3Ashvc+org%3Aaalbertshfc&type=Repositories)**  &rarr; Monitoring and control of thermal storage systems.
 
+- **[Heat Interface Units](https://github.com/search?q=topic%3Ahiu+org%3Aaalbertshfc&type=Repositories)**  &rarr; Monitoring and control of thermal storage systems.
+
 ---
 
 ## Engineering principles
